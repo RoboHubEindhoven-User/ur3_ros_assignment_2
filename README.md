@@ -1,4 +1,4 @@
-# ROS-assignment-2-
+# ROS-assignment-2
 Assignment 2 for the ROS-course at Fontys Eindhoven
 
 You will need to use a robot arm to preform a manipulation test.
