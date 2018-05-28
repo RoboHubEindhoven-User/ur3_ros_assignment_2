@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: gripper_ur3_moveit_config
+    relative_path: urdf/arm_with_gripper.urdf.xacro
+  SRDF:
+    relative_path: config/ur3.srdf
+  CONFIG:
+    author_name: Ruben Arts
+    author_email: ruben.arts@student.fontys.nl
+    generated_timestamp: 1527508175
