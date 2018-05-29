@@ -14,7 +14,11 @@ To install Moveit! simply run:
 sudo apt-get install ros-kinetic-moveit
 ```
 If that doesn't work look [here](http://moveit.ros.org/install/).
-You will also have to install the ur_modern_driver form ThomasTimm. You can download it from his [github](https://github.com/ThomasTimm/ur_modern_driver)
+You will also have to install the ur_modern_driver form ThomasTimm. You can download it from his [github](https://github.com/ThomasTimm/ur_modern_driver) or run:
+```
+cd catkin_ws
+git clone https://github.com/ThomasTimm/ur_modern_driver.git
+```
 This will give you the ability to run you program on the real robot.
 
 The github has only one problem you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src.
@@ -43,6 +47,7 @@ REMINDER: ALWAYS KEEP EMERGENCY STOP IN REACH IF THE ROBOT IS MOVING!!!
 # Things you need to build:
 
 - A statemachine to preform diffrent steps
+- Add the gripper service to your statemachine. 
 - A controller for Moveit! ([tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/move_group_python_interface/move_group_python_interface_tutorial.html#getting-started))
 
 This can be inside of one single program. You can also devide them into two diffrent programs and connect them with a service. To do that look [here](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28python%29)
@@ -64,8 +69,6 @@ If you are connected to the robot you can use Freedrive to position the robot ex
 2. 
 If the robot moves strange look into the Constrains that can be set in the yaml files of the Moveit! package.
 
-3. 
-If you don't want it to collide with the ground you can add scene objects. More information about that [here](http://docs.ros.org/indigo/api/moveit_tutorials/html/doc/pr2_tutorials/planning/src/doc/planning_scene_ros_api_tutorial.html)
 
 
 
