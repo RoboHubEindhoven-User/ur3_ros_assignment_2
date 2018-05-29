@@ -1,5 +1,5 @@
 # ROS-assignment-2
-Assignment 2 for the ROS-course at Fontys Eindhoven
+Assignment 2 for the ROS-course at Fontys Eindhoven.
 
 The assignment consists of a simple pick and place task, where the object and it's position for picking and placing on the working surface is your choice. The assigbnment is design for using the UR3 robot manipulator, but you are free to use a UR5 or the Sawyer from Rethink Robotics.
 
@@ -21,9 +21,11 @@ git clone https://github.com/ThomasTimm/ur_modern_driver.git
 ```
 This will give you the ability to run your program on a real Universal robot (UR3, UR5, UR10).
 
-*Beaware that you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src.*
+**Beaware that you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src.**
 
-You can download the package from this github. This will give you a simulation of the arm.:
+# Installing the ROS-assignment-2 package
+This package contains the UR3, Gripper and working environment descriptions for planning and executing multi-joint movements with MoveIt!.:
+## Installing in your catkin work space:
 ```
 cd catkin_ws
 git clone https://github.com/RoboHubEindhoven/ROS-assignment-2.git
@@ -31,13 +33,13 @@ catkin_make
 sudo chmod +x script/gripper_service_client.py 
 sudo chmod +x script/gripper_service_server.py 
 ```
+## Test your installed package:
 
-
-When you installed the package you can run:
+After installing the package run:
 ```
 roslaunch ur3_with_gripper_ur_moveit_config demo.launch
 ```
-
+# Using the real UR3
 To run your program on the real UR3, First:
 ```
 roslaunch ur_modern_driver ur3_bringup.launch robot_ip:=192.168.2.134
@@ -46,13 +48,14 @@ Then in another terminal:
 ```
 roslaunch ur3_with_gripper_ur_moveit_config real.launch
 ```
-Test if the robot can plan and execute without coliding into anything.
+**Test if the robot can plan and execute without colliding into its surroundings.**
 
 After this run your own program and you can test it. 
 
-REMINDER: ALWAYS KEEP EMERGENCY STOP IN REACH IF THE ROBOT IS MOVING!!!
+**REMINDER: ALWAYS KEEP EMERGENCY STOP IN REACH IF THE ROBOT IS MOVING!!!**
 
-To run the Gripper software you need to run (after you pluged in the usb of the gripper):
+# Using the gripper
+To use the Gripper run (remember to connect the gripper to your laptop with the usb cable):
 ``` 
 rosrun ur3_ros_assignment_2 gripper_service_server.py
 ```
@@ -60,11 +63,11 @@ and to test the gripper you can run this in an other terminal:
 ```
 rosrun ur3_ros_assignment_2 gripper_service_client.py
 ```
-The client part needs to be added in you statemachine so you can control it from your statemachine. YOU CAN NOT SEE THE GRIPPER WORKING IN RVIZ.
+The client part needs to be added in you statemachine so you can control it from your statemachine. **YOU CAN NOT SEE THE GRIPPER WORKING IN RVIZ.**
 
+# Deliverables for the assignment:
 
-
-# Things you need to build:
+## Things you need to do:
 
 - A statemachine to preform diffrent steps
 - Add the gripper service to your statemachine. 
@@ -72,22 +75,22 @@ The client part needs to be added in you statemachine so you can control it from
 
 This can be inside of one single program. You can also devide them into two diffrent programs and connect them with a service. To do that look [here](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28python%29)
 
-# Step by step:
+## Step by step:
 
 - Try to get your robot arm in rviz with Moveit! so you can drag the eef arround. Also make sure you can plan and execute properly. 
 - Make the controller for Moveit! in a python program. It should be able to move the robot to a specific position in space.
 - Make a statemachine that can send a position to your controller program.
-- Make sure the robot makes no complicated moves or collisions with the ground in the simulation in rviz.
+- Make sure the robot makes no complicated moves or collides with its surroundings (including the ground) in rviz.
 - Add the gripper to your statemachine.
 - Try your program on the robot.
 
-# Tips:
+## Tips:
 1. 
 You can copy the current position of the robot by printing group.getCurrentPose()
-If you are connected to the robot you can use Freedrive to position the robot exactly where you want him to be. Then copy the position with Moveit!. This way it is easier to get good positions and you know it wont colide with the base.
+If you are connected to the robot you can use Freedrive to position the robot exactly where you want it to be. Then copy the position with Moveit!. This way it is easier to get good positions and you know it wont colide with the base.
 
 2. 
-If the robot moves strange look into the Constrains that can be set in the yaml files of the Moveit! package.
+If the robot moves strange **look into the Constrains** that can be set in the yaml files of the Moveit! package.
 
 
 
