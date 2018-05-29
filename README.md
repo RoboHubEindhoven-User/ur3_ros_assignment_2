@@ -5,6 +5,8 @@ You will need to use a robot arm to preform a manipulation test.
 
 You need to pick and place a object of choice. 
 
+These are examples of how it should look like in [rviz](https://www.youtube.com/watch?v=7vrwx3QfseM)  and in [real life](https://www.youtube.com/watch?v=ayQRK4hnlew&feature=youtu.be)
+
 # Requirments :
 You Pick an object from a preprogrammed position and place it at a diffrent preprogrammed position.
 For this assignment we recommend using Moveit! It is a path planner/ kinemetics solver for robotic arms that has a really easy interface for Python and C++
