@@ -65,7 +65,8 @@ rosrun ur3_ros_assignment_2 gripper_service_client.py
 ```
 The client part needs to be added in you statemachine so you can control it from your statemachine. **YOU CAN NOT SEE THE GRIPPER WORKING IN RVIZ.**
 
-# Deliverables for the assignment:
+# The assignment:
+this assignment can be performed in **groups of 2 or 3 students**, so, not individual assignments or groups of more than 3 will be accepted.
 
 ## Things you need to do:
 
@@ -92,6 +93,13 @@ If you are connected to the robot you can use Freedrive to position the robot ex
 2. 
 If the robot moves strange **look into the Constrains** that can be set in the yaml files of the Moveit! package.
 
+## Deliverables
+1. Report explaining the design of your state machine and your code.
+2. Source code.
+3. Video showing the movement of the robot in real life and in Rviz.
+
+## Deadline
+the assignment 2 (pick and place) must be delivered by mail to (p.negreterubio@fontys.nl) before 23:00 hours on Tuesday 12 of June 2018.
 
 
 
