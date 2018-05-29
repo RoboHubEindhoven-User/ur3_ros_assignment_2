@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import rospy
-from faraday_gripper.srv import *
+from ur3_ros_assignment_2.srv import *
 
 def gripper_client(size_to_open):
     rospy.init_node('gripper_service_client')

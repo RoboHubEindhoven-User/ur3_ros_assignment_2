@@ -2,7 +2,7 @@
 
 import rospy
 import serial
-from faraday_gripper.srv import *
+from ur3_ros_assignment_2.srv import *
 import serial.tools.list_ports
 
 scalar = 120/18.5  # Scales the input to the servo values, value = 6.486
