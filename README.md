@@ -53,15 +53,16 @@ Test if the robot can plan and execute without coliding into anything.
 After this run your own program and you can test it. 
 
 REMINDER: ALWAYS KEEP EMERGENCY STOP IN REACH IF THE ROBOT IS MOVING!!!
-To run the Gripper software you need to run:
+
+To run the Gripper software you need to run (after you pluged in the usb of the gripper):
 ``` 
 rosrun ur3_ros_assignment_2 gripper_service_server.py
 ```
-and in annother terminal:
+and to test the gripper you can run this in an other terminal:
 ```
 rosrun ur3_ros_assignment_2 gripper_service_client.py
 ```
-The client part needs to be added in you statemachine. so you can control it from your statemachine. 
+The client part needs to be added in you statemachine so you can control it from your statemachine. YOU CAN NOT SEE THE GRIPPER WORKING IN RVIZ.
 
 
 
