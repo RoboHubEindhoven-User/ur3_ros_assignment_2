@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/user/catkin_ws/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/user/catkin_ws/src/faraday_robot/include",
+        "/home/user/catkin_ws/src/ESA-PROJ/fontys_at_work/map_marker/include",
+        "/home/user/catkin_ws/src/ESA-PROJ/fontys_at_work/nav_lib/include",
+        "/home/user/catkin_ws/src/ESA-PROJ/fontys_at_work/nogo_zone_map_server/include",
+        "/home/user/catkin_ws/src/realsense2_camera/include",
+        "/home/user/catkin_ws/src/ESA-PROJ/fontys_at_work/refbox_receiver/include",
+        "/home/user/catkin_ws/src/robot_setup_tf/include",
+        "/home/user/catkin_ws/src/ESA-PROJ/fontys_at_work/task_executor/include",
+        "/home/user/catkin_ws/src/ur_modern_driver/include",
+        "/home/user/catkin_ws/src/ESA-PROJ/youbot/youbot_driver/include",
+        "/home/user/catkin_ws/src/ESA-PROJ/youbot/youbot_driver_ros_interface/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}
