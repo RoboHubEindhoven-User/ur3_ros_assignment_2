@@ -28,7 +28,10 @@ You can download the package from this github. This will give you a simulation o
 cd catkin_ws
 git clone https://github.com/RoboHubEindhoven/ROS-assignment-2.git
 catkin_make
+sudo chmod +x script/gripper_service_client.py 
+sudo chmod +x script/gripper_service_server.py 
 ```
+
 
 When you installed the package you can run:
 ```
@@ -48,6 +51,16 @@ Test if the robot can plan and execute without coliding into anything.
 After this run your own program and you can test it. 
 
 REMINDER: ALWAYS KEEP EMERGENCY STOP IN REACH IF THE ROBOT IS MOVING!!!
+To run the Gripper software you need to run:
+``` 
+rosrun ur3_ros_assignment_2 gripper_service_server.py
+```
+and in annother terminal:
+```
+rosrun ur3_ros_assignment_2 gripper_service_client.py
+```
+The client part needs to be added in you statemachine. so you can control it from your statemachine. 
+
 
 
 # Things you need to build:
@@ -74,6 +87,8 @@ If you are connected to the robot you can use Freedrive to position the robot ex
 
 2. 
 If the robot moves strange look into the Constrains that can be set in the yaml files of the Moveit! package.
+
+
 
 
 
