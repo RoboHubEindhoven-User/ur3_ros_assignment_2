@@ -30,6 +30,7 @@ This package contains the UR3, Gripper and working environment descriptions for 
 cd catkin_ws/src
 git clone https://github.com/RoboHubEindhoven/ROS-assignment-2.git
 catkin_make
+cd catkin_ws/src/ROS-assignment-2
 sudo chmod +x script/gripper_service_client.py 
 sudo chmod +x script/gripper_service_server.py 
 ```
