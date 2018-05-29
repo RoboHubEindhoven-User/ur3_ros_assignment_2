@@ -18,6 +18,7 @@ You will also have to install the ur_modern_driver form ThomasTimm. You can down
 ```
 cd catkin_ws/src
 git clone https://github.com/ThomasTimm/ur_modern_driver.git
+sudo apt-get install ros-kinetic-ur-*
 ```
 This will give you the ability to run your program on a real Universal robot (UR3, UR5, UR10).
 
