@@ -30,7 +30,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_ur3_stl.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_ur3_stl.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -44,7 +44,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_ur3_stl.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_ur3_stl.STL" />
 		    </geometry>
 		  </collision>
 		</link>

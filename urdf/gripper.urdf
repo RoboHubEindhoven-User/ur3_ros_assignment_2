@@ -30,7 +30,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -44,7 +44,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -70,7 +70,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_plate_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_plate_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -84,7 +84,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_plate_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_plate_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -123,7 +123,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/joint_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/joint_left_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -137,7 +137,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/joint_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/joint_left_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -176,7 +176,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_left_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -190,7 +190,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_left_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -229,7 +229,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/festo_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/festo_left_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -243,7 +243,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/festo_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/festo_left_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -282,7 +282,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/joint_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/joint_right_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -296,7 +296,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/joint_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/joint_right_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -335,7 +335,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_right_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -349,7 +349,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_right_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -388,7 +388,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/festo_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/festo_right_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -402,7 +402,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/festo_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/festo_right_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -441,7 +441,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_plate_two_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_plate_two_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -455,7 +455,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/base_plate_two_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/base_plate_two_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -494,7 +494,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/camera_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/camera_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -508,7 +508,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/camera_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/camera_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -547,7 +547,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/servo_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/servo_right_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -561,7 +561,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/servo_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/servo_right_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -600,7 +600,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/servo_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/servo_left_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -614,7 +614,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/servo_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/servo_left_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -653,7 +653,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_two_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_two_right_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -667,7 +667,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_two_right_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_two_right_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
@@ -706,7 +706,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_two_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_two_left_link.STL" />
 		    </geometry>
 		    <material
 		      name="">
@@ -720,7 +720,7 @@
 		      rpy="0 0 0" />
 		    <geometry>
 		      <mesh
-		        filename="package://gripper_ur/meshes/finger_two_left_link.STL" />
+		        filename="package://ur3_ros_assignment_2/meshes/finger_two_left_link.STL" />
 		    </geometry>
 		  </collision>
 		</link>
