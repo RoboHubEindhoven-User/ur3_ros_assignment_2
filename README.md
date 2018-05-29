@@ -6,7 +6,7 @@ You will need to use a robot arm to preform a manipulation test.
 You need to pick and place a object of choice. 
 
 # Requirments :
-You Pick an object form a preprogrammed position and place it at a diffrent preprogrammed position.
+You Pick an object from a preprogrammed position and place it at a diffrent preprogrammed position.
 For this assignment we recommend using Moveit! It is a path planner/ kinemetics solver for robotic arms that has a really easy interface for Python and C++
 
 To install Moveit! simply run:
@@ -23,7 +23,13 @@ This will give you the ability to run you program on the real robot.
 
 The github has only one problem you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src.
 
-You can download the ur3_with_gripper_ur_moveit_config package from this github. This will give you a simulation of the arm.
+You can download the package from this github. This will give you a simulation of the arm.:
+```
+cd catkin_ws
+git clone https://github.com/RoboHubEindhoven/ROS-assignment-2.git
+catkin_make
+```
+
 When you installed the package you can run:
 ```
 roslaunch ur3_with_gripper_ur_moveit_config demo.launch
