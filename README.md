@@ -16,7 +16,7 @@ sudo apt-get install ros-kinetic-moveit
 In case it does not install look [here](http://moveit.ros.org/install/) for more information.
 You will also have to install the ur_modern_driver form ThomasTimm. You can download it from his [github](https://github.com/ThomasTimm/ur_modern_driver) or run:
 ```
-cd catkin_ws
+cd catkin_ws/src
 git clone https://github.com/ThomasTimm/ur_modern_driver.git
 ```
 This will give you the ability to run your program on a real Universal robot (UR3, UR5, UR10).
