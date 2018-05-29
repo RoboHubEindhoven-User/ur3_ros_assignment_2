@@ -21,7 +21,7 @@ git clone https://github.com/ThomasTimm/ur_modern_driver.git
 ```
 This will give you the ability to run your program on a real Universal robot (UR3, UR5, UR10).
 
-**Beaware that you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src.**
+**Beaware that you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src. Don't forget to delete the old one.**
 
 # Installing the ROS-assignment-2 package
 This package contains the UR3, Gripper and working environment descriptions for planning and executing multi-joint movements with MoveIt!.:
