@@ -27,7 +27,7 @@ This will give you the ability to run your program on a real Universal robot (UR
 This package contains the UR3, Gripper and working environment descriptions for planning and executing multi-joint movements with MoveIt!.:
 ## Installing in your catkin work space:
 ```
-cd catkin_ws
+cd catkin_ws/src
 git clone https://github.com/RoboHubEindhoven/ROS-assignment-2.git
 catkin_make
 sudo chmod +x script/gripper_service_client.py 
