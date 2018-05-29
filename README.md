@@ -1,29 +1,27 @@
 # ROS-assignment-2
 Assignment 2 for the ROS-course at Fontys Eindhoven
 
-You will need to use a robot arm to preform a manipulation test.
+The assignment consists of a simple pick and place task, where the object and it's position for picking and placing on the working surface is your choice. The assigbnment is design for using the UR3 robot manipulator, but you are free to use a UR5 or the Sawyer from Rethink Robotics.
 
-You need to pick and place a object of choice. 
-
-These are examples of how it should look like in [rviz](https://www.youtube.com/watch?v=7vrwx3QfseM)  and in [real life](https://www.youtube.com/watch?v=ayQRK4hnlew&feature=youtu.be)
+These are examples of how it could look like in [rviz](https://www.youtube.com/watch?v=7vrwx3QfseM)  and in [real life](https://www.youtube.com/watch?v=ayQRK4hnlew&feature=youtu.be)
 
 # Requirments :
 You Pick an object from a preprogrammed position and place it at a diffrent preprogrammed position.
-For this assignment we recommend using Moveit! It is a path planner/ kinemetics solver for robotic arms that has a really easy interface for Python and C++
+For this assignment we recommend using Moveit! It is a path planner/kinemetics solver for robotic arms (manipulators) that has a really easy interface for Python and C++
 
 To install Moveit! simply run:
 ```
 sudo apt-get install ros-kinetic-moveit
 ```
-If that doesn't work look [here](http://moveit.ros.org/install/).
+In case it does not install look [here](http://moveit.ros.org/install/) for more information.
 You will also have to install the ur_modern_driver form ThomasTimm. You can download it from his [github](https://github.com/ThomasTimm/ur_modern_driver) or run:
 ```
 cd catkin_ws
 git clone https://github.com/ThomasTimm/ur_modern_driver.git
 ```
-This will give you the ability to run you program on the real robot.
+This will give you the ability to run your program on a real Universal robot (UR3, UR5, UR10).
 
-The github has only one problem you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src.
+*Beaware that you need to change the ur_modern_driver/src/ur_hardware_interface.cpp to the ur_hardware_interface.cpp that is uploaded to this github. Copy it and paste it in your catkin_ws/src/ur_modern_driver/src.*
 
 You can download the package from this github. This will give you a simulation of the arm.:
 ```
