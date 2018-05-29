@@ -28,9 +28,9 @@ This package contains the UR3, Gripper and working environment descriptions for 
 ## Installing in your catkin work space:
 ```
 cd catkin_ws/src
-git clone https://github.com/RoboHubEindhoven/ROS-assignment-2.git
+git clone https://github.com/RoboHubEindhoven/ur3_ros_assignment_2
 catkin_make
-cd catkin_ws/src/ROS-assignment-2
+cd catkin_ws/src/ur3_ros_assignment_2
 sudo chmod +x script/gripper_service_client.py 
 sudo chmod +x script/gripper_service_server.py 
 ```
@@ -47,7 +47,7 @@ roslaunch ur_modern_driver ur3_bringup.launch robot_ip:=192.168.2.134
 ```
 Then in another terminal:
 ```
-roslaunch ur3_ros_assignment real.launch
+roslaunch ur3_ros_assignment_2 real.launch
 ```
 **Test if the robot can plan and execute without colliding into its surroundings.**
 
