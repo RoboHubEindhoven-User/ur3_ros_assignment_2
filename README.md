@@ -71,7 +71,7 @@ this assignment can be performed in **groups of 2 or 3 students**, so, not indiv
 
 ## Things you need to do:
 
-- A statemachine to preform diffrent steps
+- A statemachine to preform different steps
 - Add the gripper service to your statemachine. 
 - A controller for Moveit! ([tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/move_group_python_interface/move_group_python_interface_tutorial.html#getting-started))
 
