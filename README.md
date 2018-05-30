@@ -82,7 +82,7 @@ This can be inside of one single program. You can also devide them into two diff
 
 ## Step by step:
 
-- Try to get your robot arm in rviz with Moveit! so you can drag the eef arround. Also make sure you can plan and execute properly. 
+- Try to get your robot arm in rviz with Moveit! so you can drag the end-effector around. Also make sure you can plan and execute properly. 
 - Make the controller for Moveit! in a python program. It should be able to move the robot to a specific position in space.
 - Make a statemachine that can send a position to your controller program.
 - Make sure the robot makes no complicated moves or collides with its surroundings (including the ground) in rviz.
