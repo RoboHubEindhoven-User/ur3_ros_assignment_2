@@ -12,6 +12,7 @@ For this assignment we recommend using Moveit! It is a path planner/kinemetics s
 To install Moveit! simply run:
 ```
 sudo apt-get install ros-kinetic-moveit
+sudo apt-get install ros-kinetic-ur3-moveit-config 
 ```
 In case it does not install look [here](http://moveit.ros.org/install/) for more information.
 You will also have to install the ur_modern_driver form ThomasTimm. You can download it from his [github](https://github.com/ThomasTimm/ur_modern_driver) or run:
@@ -42,11 +43,12 @@ After installing the package run:
 roslaunch ur3_ros_assignment demo.launch
 ```
 # Using the real UR3
-To run your program on the real UR3, First:
+After connecting to the ethernet cable of the robot.
+Run this line to start the connection between ROS and the UR3:
 ```
 roslaunch ur_modern_driver ur3_bringup.launch robot_ip:=192.168.2.134
 ```
-Then in another terminal:
+To now see the visualization, run this in another terminal:
 ```
 roslaunch ur3_ros_assignment_2 real.launch
 ```
