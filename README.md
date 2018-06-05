@@ -91,7 +91,7 @@ This can be inside of one single program. You can also devide them into two diff
 
 ## Tips:
 1. 
-You can copy the current position of the robot by printing group.getCurrentPose()
+You can copy the current position of the robot by printing group.get_current_pose()
 If you are connected to the robot you can use Freedrive to position the robot exactly where you want it to be. Then copy the position with Moveit!. This way it is easier to get good positions and you know it wont colide with the base.
 
 2. 

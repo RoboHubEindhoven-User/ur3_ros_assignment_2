@@ -682,7 +682,7 @@
 		  <child
 		    link="finger_two_right_link" />
 		  <axis
-		    xyz="0 1 0" />
+		    xyz="0 0 1" />
 		</joint>
 		<link
 		  name="finger_two_left_link">
@@ -735,7 +735,7 @@
 		  <child
 		    link="finger_two_left_link" />
 		  <axis
-		    xyz="0 1 0" />
+		    xyz="0 0 1" />
 		</joint>
 	</xacro:macro>
 </robot>
