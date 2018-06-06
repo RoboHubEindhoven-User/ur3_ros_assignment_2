@@ -14,6 +14,12 @@ To install Moveit! simply run:
 sudo apt-get install ros-kinetic-moveit
 sudo apt-get install ros-kinetic-ur3-moveit-config 
 ```
+To make sure you will not get an error with pyasimp install pip and pyasimp:
+```
+sudo apt-get install python-pip
+pip install pyassimp
+```
+
 In case it does not install look [here](http://moveit.ros.org/install/) for more information.
 You will also have to install the ur_modern_driver form ThomasTimm. You can download it from his [github](https://github.com/ThomasTimm/ur_modern_driver) or run:
 ```
